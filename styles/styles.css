@@ -117,8 +117,7 @@ h6 {
 
 /* Start Jumbotron */
 .jumbotron {
-    background-color: #f6f8fa;
-    border: 1px solid #eaecef;
+    background-color: #f0e7c0;
     border-radius: 4px;
     padding: 20px 0;
 }
@@ -135,26 +134,46 @@ h6 {
 /* Start Main */
 .main-home-one {
     float: left;
+    width: 100%;
 }
 
 .main-home-two {
     float: left;
+    width: 100%;
 }
 .main-home-three {
     float: left;
+    width: 100%;
 }
 .main-home-four {
-    float: left
+    float: left;
+    width: 100%;
 }
 /* End Main */
+
+/* Start Box */
+.box-heading {
+    background-color: burlywood;
+    border-radius: 3px 3px 0 0;
+    margin: 0;
+    padding: 1px 2px;
+    text-transform: uppercase;
+}
+.box-heading h4 {
+    font-size: 14px;
+    margin: 0;
+}
+
+.box-isi {
+    background-color: cornsilk;
+}
+/* End Box */
 
 /* Start Menu Sekunder */
 .menu-sekunder {
     background-color: #f6f8fa;
-    border-bottom: 1px solid #eaecef;
-    border-top: 1px solid #eaecef;
     overflow: auto;
-    padding: 15px 0;
+    padding: 10px 0;
 }
 .menu-sekunder h4 {
     font-size: 14px;
@@ -165,23 +184,23 @@ h6 {
     padding: 0;
 }
 .menu-sekunder li {
-    list-style:disc;
+    list-style: none;
 }
 .menu-sekunder li a,
-.menu-sekunder p {
+.menu-sekunder li p {
     font-size: 15px;
 }
-.menu-skunder-one 
-.menu-skunder-two 
-.menu-skunder-three {
+.menu-sekunder-one, 
+.menu-sekunder-two, 
+.menu-sekunder-three {
     float: left;
 } 
 .menu-skunder-one {
-    width: 40%;
-}
-.menu-skunder-two 
-.menu-skunder-three {
     width: 30%;
+}
+.menu-sekunder-two, 
+.menu-sekunder-three {
+    width: 35%;
 } 
 .menu-sekunder li img {
     vertical-align: middle;
@@ -194,6 +213,100 @@ h6 {
 }
 /* End Copyright */
 
-/* Start Box */
 
-/* End Box */
+
+/* Start Paket */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro);
+.snip1552 {
+  font-family: 'Source Sans Pro', sans-serif;
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  margin: 8px;
+  min-width: 600px;
+  max-width: 600px;
+  width: 100%;
+  color: #000000;
+  text-align: left;
+  font-size: 15px;
+  background-color: #fff;
+}
+
+.snip1552 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.45s ease;
+  transition: all 0.45s ease;
+}
+
+.snip1552 img {
+  vertical-align: top;
+  max-width: 100%;
+  backface-visibility: hidden;
+}
+
+.snip1552 figcaption {
+  position: absolute;
+  top: 40px;
+  bottom: 40px;
+  left: 40px;
+  right: 40px;
+  z-index: 1;
+  bottom: 0;
+}
+
+.snip1552 h3,
+.snip1552 p {
+  margin: 0;
+  opacity: 0;
+  letter-spacing: 1px;
+}
+
+.snip1552 h3 {
+  -webkit-transform: translateY(-100%);
+  transform: translateY(-100%);
+  text-transform: uppercase;
+  font-weight: 400;
+  margin-bottom: 5px;
+}
+
+.snip1552 p {
+  font-weight: normal;
+  font-style: italic;
+  color: #888;
+  font-size: 0.9em;
+  padding-left: 15px;
+  -webkit-transform: translateX(-25px);
+  transform: translateX(-25px);
+}
+
+.snip1552 a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+}
+
+.snip1552:hover > img,
+.snip1552.hover > img {
+  opacity: 0.1;
+}
+
+.snip1552:hover h3,
+.snip1552.hover h3,
+.snip1552:hover p,
+.snip1552.hover p {
+  -webkit-transform: translateY(0);
+  transform: translateY(0);
+  opacity: 1;
+}
+
+
+/* Demo purposes only */
+
+body {
+  text-align: center;
+}
+/* End Paket */
